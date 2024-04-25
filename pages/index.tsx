@@ -1,6 +1,7 @@
-import { Hero } from "@/Components/Hero";
-import { MobileNav } from "@/Components/MobileNav";
-import { Navbar } from "@/Components/Navbar";
+import About from "@/Components/About";
+import Hero from "@/Components/Hero";
+import MobileNav from "@/Components/MobileNav";
+import Navbar from "@/Components/Navbar";
 import React, { useState } from "react";
 
 export default function Homepage() {
@@ -11,11 +12,12 @@ export default function Homepage() {
     return (
         <div className="overflow-x-hidden">
             <div>
-                {/* NAVBAR */}
                 <MobileNav nav={nav} closeNav={closeNav} />
                 <Navbar openNav={openNav} />
-                {/* HERO SECTION */}
                 <Hero />
+                <div className="relative z-[30]">
+                    <About />
+                </div>
             </div>
         </div>
     );
