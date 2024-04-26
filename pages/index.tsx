@@ -1,8 +1,10 @@
 import About from "@/Components/About";
 import Education from "@/Components/Education";
+import Footer from "@/Components/Footer";
 import Hero from "@/Components/Hero";
 import MobileNav from "@/Components/MobileNav";
 import Navbar from "@/Components/Navbar";
+import Projects from "@/Components/Projects";
 import Skills from "@/Components/Skills";
 import React, { useState } from "react";
 
@@ -21,6 +23,8 @@ export default function Homepage() {
                     <About />
                     <Education />
                     <Skills />
+                    <Projects />
+                    <Footer />
                 </div>
             </div>
         </div>
