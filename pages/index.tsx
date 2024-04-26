@@ -1,7 +1,9 @@
 import About from "@/Components/About";
+import Education from "@/Components/Education";
 import Hero from "@/Components/Hero";
 import MobileNav from "@/Components/MobileNav";
 import Navbar from "@/Components/Navbar";
+import Skills from "@/Components/Skills";
 import React, { useState } from "react";
 
 export default function Homepage() {
@@ -17,6 +19,8 @@ export default function Homepage() {
                 <Hero />
                 <div className="relative z-[30]">
                     <About />
+                    <Education />
+                    <Skills />
                 </div>
             </div>
         </div>
