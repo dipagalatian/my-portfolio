@@ -26,7 +26,7 @@ const Education = () => {
                     >
                         <AcademicCapIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">UPN Veteran Jakarta</h1>
-                        <p className="text-[15px] text-[#d3d2d2] font-normal">Sep 2023 - Sep 2024</p>
+                        <p className="text-[15px] text-[#d3d2d2] font-normal">Sep 2019 - Sep 2024</p>
                         <p className="text-[15px] text-[#d3d2d2] font-normal lowercase">Get Bachelor&apos;s degree of Mechanical Engineering</p>
                     </div>
                 </div>

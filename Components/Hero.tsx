@@ -3,6 +3,7 @@ import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import Image from "next/image";
 import { ArrowDownTrayIcon } from "@heroicons/react/16/solid/index.js";
+import Link from "next/link";
 
 const Hero = () => {
     return (
@@ -20,7 +21,9 @@ const Hero = () => {
                             className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold
                         uppercase bg-[#55e6a5] text-black flex items-center space-x-2"
                         >
-                            <p>Download CV</p>
+                            <Link href="/cv_parar_tria_dipa.pdf" target="_blank">
+                                Download CV
+                            </Link>
                             <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
                         </button>
                     </div>
